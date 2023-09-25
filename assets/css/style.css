@@ -71,7 +71,7 @@ section h2 {
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 main img {
-    width: 15%;
+    width: 16%;
     border: 3px solid rgb(230, 22, 126);
 }
 
@@ -196,6 +196,10 @@ footer a {
         font-weight: 700;
     }
 
+    main img {
+        width: 9%;
+    }
+
      table {
         margin-left: auto;
         margin-right: auto;
@@ -225,17 +229,16 @@ footer a {
         margin-left: 6em;
         text-align: unset;
         padding: 0 1.5em;
+        
     }
 
     header div {
         display: inline-block;
-        text-align: left;
-        
+        text-align: left; 
     }
     header img {
         display: inline-block;
         width:30%;
-        
     }
 
     header p {
@@ -248,7 +251,6 @@ footer a {
         display: inline-block;
         text-align: right;
         margin-left: 24em;
-
     }
 
     /* MAIN */
@@ -256,6 +258,8 @@ footer a {
     main img {
         width: 7%;
     }
+
+   
     main {
         margin-left: 6em;
         margin-right: 6em;
