@@ -66,6 +66,8 @@ section h2 {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 1em;
+    background-color: rgb(114, 113, 113);
+    
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -361,12 +363,12 @@ body {
 }
 
 main img {
-    display: inline-block;
-    text-align: left;
+   
+    float: left;
 }
 
-article div + p {
-    display: inline-block;
+article div p {
+    float: right;
 }
 
 table {
