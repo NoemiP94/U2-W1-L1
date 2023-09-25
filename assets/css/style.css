@@ -229,28 +229,32 @@ footer a {
         margin-left: 6em;
         text-align: unset;
         padding: 0 1.5em;
-        
     }
 
     header div {
         display: inline-block;
         text-align: left; 
     }
+
     header img {
         display: inline-block;
         width:30%;
+        vertical-align: middle;
     }
 
     header p {
         display: inline-block;
         text-align: center;
         padding-left: 2em;
+        vertical-align: middle;
     }
 
     header nav {
         display: inline-block;
         text-align: right;
         margin-left: 24em;
+        vertical-align: middle;
+        margin-bottom: 1em;
     }
 
     /* MAIN */
@@ -300,14 +304,16 @@ footer a {
 
     iframe {
         width: 49%;
-        height: 16em;
+        height: 18em;
         display: inline-block;
+        vertical-align: middle;
     }
 
     section {
         display: inline-block;
         width: 49%;
-        border-radius:6%
+        border-radius:6%;
+        vertical-align: middle
     }
 
     input {
